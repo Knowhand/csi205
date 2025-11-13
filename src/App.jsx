@@ -34,7 +34,7 @@ const [token, setToken] = useState('')
             <Route path="animation" element={<Animation />} />
             <Route path="components" element={<Components />} />
             <Route path="Todos" element={<Todos />} />
-            <Route path="Products" element={<Products setPq={setPq} cartItems={cartItems} setCartItems={setCartItems}/>}w />
+            <Route path="Products" element={<Products setPq={setPq} cartItems={cartItems} setCartItems={setCartItems}/>} />
             <Route path="carts" element={<Cart cartItems={cartItems} setCartItems={setCartItems} />} />
             <Route path="*" element={<NotPageFound />} />
           </Route>
